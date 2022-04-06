@@ -13,7 +13,7 @@ var tmpl *template.Template
 
 type Todo struct {
 	Item string `json:"item"`
-	Done bool   `json:"done"`
+	Done bool   `json:"done,omitempty"`
 }
 
 type PageData struct {
