@@ -46,5 +46,11 @@ func indexHandle(w http.ResponseWriter, r *http.Request) {
 
 	json.Unmarshal(databyte, &data)
 
+	// buffer := new(bytes.Buffer)
+	// tmpl.Execute(buffer, data)
+	// if err := ioutil.WriteFile("./indexGenerated.html", buffer.Bytes(), 0644); err != nil {
+	// 	log.Fatalf("Error while write to file: %v", err)
+	// }
+
 	tmpl.Execute(w, data)
 }

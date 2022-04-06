@@ -41,7 +41,7 @@ li::before {
 	height: 10px; 
 	top: 7px;
 	left: -12px;
-	background: url("/static/img/crugok.png") no-repeat;
+	background: url("./static/img/crugok.png") no-repeat;
 }
 
 .done::before {
@@ -51,5 +51,5 @@ li::before {
 	height: 50%;
 	top: 7px;
 	left: -12px;
-	background: url("/static/img/galochka.svg") no-repeat;
+	background: url("./static/img/galochka.svg") no-repeat;
 }
