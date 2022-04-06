@@ -1,0 +1,20 @@
+{
+	"todos": [
+		{
+			"item": "Install GO",
+			"done": true
+		},
+		{
+			"item": "Learn GO",
+			"done": false
+		},
+		{
+			"item": "Like this app",
+			"done": false
+		},
+		{
+			"item": "New",
+			"done": false
+		}
+	]
+}
