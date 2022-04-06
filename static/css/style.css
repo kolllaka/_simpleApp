@@ -1,0 +1,55 @@
+/* Colors:
+#AF4425
+#662E1C
+#EBDCB2
+#C9A66B
+ */
+body {
+	background-color: #662E1C;
+	color: #C9A66B;
+}
+
+.containers {
+	background-color: #AF4425;
+	width: 30%;
+	margin: 20vh auto;
+	padding: 10px 30px 30px;
+}
+
+h1{
+	color: #EBDCB2;
+	text-align: center;
+}
+
+ul li {
+	cursor: pointer;
+}
+
+li {
+	position: relative;
+}
+.done {
+	text-decoration: line-through;
+	position: relative;
+}
+
+li::before {
+	content: "";
+	z-index: 100;
+	position: absolute;
+	width: 10px;
+	height: 10px; 
+	top: 7px;
+	left: -12px;
+	background: url("/static/img/crugok.png") no-repeat;
+}
+
+.done::before {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 50%;
+	top: 7px;
+	left: -12px;
+	background: url("/static/img/galochka.svg") no-repeat;
+}
